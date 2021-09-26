@@ -3,14 +3,14 @@ import React from 'react'
 function Nav() {
     return (
         <>
-            <nav class="navbar navbar-fixed-top navbar-inverse">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
-                            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
-                                class="icon-bar"></span> <span class="icon-bar"></span>
+            <nav className="navbar navbar-fixed-top navbar-inverse">
+                <div className="container">
+                    <div className="navbar-header">
+                        <button className="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+                            <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span
+                                className="icon-bar"></span> <span className="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Rew Aud!</a>
+                        <a className="navbar-brand" href="#">Rew Aud!</a>
                     </div>
                 </div>
             </nav>

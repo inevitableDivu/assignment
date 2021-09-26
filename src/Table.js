@@ -4,7 +4,7 @@ import './App.css'
 function Table() {
     return (
         <>
-            <table style="border:1px;">
+            <table style={{ border: '1px' }}>
                 <col width="600px" />
                 <col width="600" />
                 <tr>
@@ -13,7 +13,7 @@ function Table() {
                             <div id="image">Click Through Image</div>
                         </div>
                     </td>
-                    <td><textarea id="click-info" textarea className="form-control" rows="10" readonly></textarea></td>
+                    <td><textarea id="click-info" className="form-control" rows="10" readonly></textarea></td>
                 </tr>
             </table>
             <hr />
